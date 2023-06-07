@@ -45,3 +45,7 @@ Route::get('/HTA-Direkomendasikan', function () {
 Route::get('/HTA-Ditolak', function () {
     return view('HTA-Ditolak');
 });
+
+Route::get('/HTA-RevisiDokumenPPK', function () {
+    return view('RevisiDokumenPPK.revisiDokumenPPK');
+});

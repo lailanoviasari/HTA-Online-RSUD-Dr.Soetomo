@@ -102,7 +102,7 @@
 										<!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
+											<a class="menu-link" href="/HTA-RevisiDokumenPPK">
 												<span class="menu-title">Ketiga</span>
 											</a>
 											<!--end:Menu link-->
