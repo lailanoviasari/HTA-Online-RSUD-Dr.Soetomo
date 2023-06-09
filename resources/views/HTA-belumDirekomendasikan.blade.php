@@ -1,6 +1,6 @@
 @extends('HTA-layouts.HTA-main')
 @section('title', 'Belum Direkomendasikan')
-@section('content-belumDirekomendasikan')
+@section('content-BelumDirekomendasikan')
     
 				<!--begin::belum diverifikasi-->
 				<div id="content2_belumDiVerifikasi" class="app-content flex-column-fluid">

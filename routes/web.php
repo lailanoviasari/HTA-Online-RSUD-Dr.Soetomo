@@ -31,11 +31,11 @@ Route::get('/beranda', function () {
 });
 
 Route::get('/', function () {
-    return view('HTA-content');
+    return view('HTA-InformasiPengajuan');
 });
 
 Route::get('/HTA-belumDirekomendasikan', function () {
-    return view('HTA-belumDirekomendasikan');
+    return view('HTA-BelumDirekomendasikan');
 });
 
 Route::get('/HTA-Direkomendasikan', function () {
