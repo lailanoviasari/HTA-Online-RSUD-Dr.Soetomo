@@ -47,5 +47,5 @@ Route::get('/HTA-Ditolak', function () {
 });
 
 Route::get('/HTA-RevisiDokumenPPK', function () {
-    return view('RevisiDokumenPPK.revisiDokumenPPK');
+    return view('RevisiDokumenPPK.HTA-revisiDokumenPPK');
 });
