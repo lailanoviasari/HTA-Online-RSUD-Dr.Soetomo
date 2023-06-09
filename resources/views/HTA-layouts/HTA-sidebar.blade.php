@@ -176,19 +176,7 @@
 									<span class="menu-link menu-center">
 										<!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/kt-products/docs/metronic/html/releases/2023-03-24-172858/core/html/src/media/icons/duotune/general/gen045.svg-->
 										<span class="menu-icon me-0">
-											<span class="svg-icon svg-icon-muted svg-icon-2hx"><svg width="30"
-													height="30" viewBox="-3 0 30 30" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<rect opacity="0.3" x="4" y="11" width="12" height="2" rx="1"
-														fill="white" />
-													<path
-														d="M5.86875 11.6927L7.62435 10.2297C8.09457 9.83785 8.12683 9.12683 7.69401 8.69401C7.3043 8.3043 6.67836 8.28591 6.26643 8.65206L3.34084 11.2526C2.89332 11.6504 2.89332 12.3496 3.34084 12.7474L6.26643 15.3479C6.67836 15.7141 7.3043 15.6957 7.69401 15.306C8.12683 14.8732 8.09458 14.1621 7.62435 13.7703L5.86875 12.3073C5.67684 12.1474 5.67684 11.8526 5.86875 11.6927Z"
-														fill="white" />
-													<path
-														d="M8 5V6C8 6.55228 8.44772 7 9 7C9.55228 7 10 6.55228 10 6C10 5.44772 10.4477 5 11 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H11C10.4477 19 10 18.5523 10 18C10 17.4477 9.55228 17 9 17C8.44772 17 8 17.4477 8 18V19C8 20.1046 8.89543 21 10 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H10C8.89543 3 8 3.89543 8 5Z"
-														fill="white" />
-												</svg>
-											</span>
+											<i class="bi bi-box-arrow-left fs-1"></i>
 										</span>
 										<!--end::Svg Icon-->
 									</span>
@@ -254,10 +242,10 @@
 									<br>
 									<!--begin:Menu item-->
 									<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
-										<!--begin:Menu pengaju-->
+										<!--begin:Menu pengaju A/TK-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
+											<a class="menu-link" href="/HTA-RevisiDokumenPPK">
 												<!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/kt-products/docs/metronic/html/releases/2023-03-24-172858/core/html/src/media/icons/duotune/general/gen045.svg-->
 												<span class="svg-icon svg-icon-muted svg-icon-2hx "><svg width="30"
 														height="30" viewBox="1 -2 30 30" fill="white"
@@ -271,16 +259,16 @@
 													</svg>
 												</span>
 												<!--end::Svg Icon-->
-												<span class="menu-title fs-6 ms-1">Pengajuan (Pengaju)</span>
+												<span class="menu-title fs-6 ms-1">Pengajuan A/TK</span>
 											</a>
 											<!--end:Menu link-->
 										</div>
-										<!--end::Menu Pengaju-->
+										<!--end::Menu Pengaju A/TK-->
 
-										<!--begin:Menu verifikator-->
+										<!--begin:Menu Obat-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
+											<a class="menu-link" href="/HTA-RevisiDokumenPPK">
 												<!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/kt-products/docs/metronic/html/releases/2023-03-24-172858/core/html/src/media/icons/duotune/general/gen045.svg-->
 												<span class="svg-icon svg-icon-muted svg-icon-2hx "><svg width="30"
 														height="30" viewBox="1 -2 30 30" fill="white"
@@ -294,16 +282,16 @@
 													</svg>
 												</span>
 												<!--end::Svg Icon-->
-												<span class="menu-title fs-6 ms-1">Pengajuan (Verifikator)</span>
+												<span class="menu-title fs-6 ms-1">Pengajuan Obat</span>
 											</a>
 											<!--end:Menu link-->
 										</div>
-										<!--end:Menu verifikator-->
+										<!--end:Menu Obat-->
 
-										<!--begin:Menu reviwer-->
+										<!--begin:Menu Revisi Dokumen PPK-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
+											<a class="menu-link" href="/HTA-RevisiDokumenPPK">
 												<!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/kt-products/docs/metronic/html/releases/2023-03-24-172858/core/html/src/media/icons/duotune/general/gen045.svg-->
 												<span class="svg-icon svg-icon-muted svg-icon-2hx "><svg width="30"
 														height="30" viewBox="1 -2 30 30" fill="white"
@@ -317,57 +305,11 @@
 													</svg>
 												</span>
 												<!--end::Svg Icon-->
-												<span class="menu-title fs-6 ms-1">Pengajuan (Reviwer)</span>
+												<span class="menu-title fs-6 ms-1">Revisi Dokumen PPK</span>
 											</a>
 											<!--end:Menu link-->
 										</div>
-										<!--end::Menu reviewer-->
-
-										<!--begin:Menu verifikator kepala-->
-										<div class="menu-item">
-											<!--begin:Menu link-->
-											<a class="menu-link active" href="/">
-												<!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/kt-products/docs/metronic/html/releases/2023-03-24-172858/core/html/src/media/icons/duotune/general/gen045.svg-->
-												<span class="svg-icon svg-icon-muted svg-icon-2hx "><svg width="30"
-														height="30" viewBox="1 -2 30 30" fill="white"
-														xmlns="http://www.w3.org/2000/svg">
-														<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10"
-															fill="white" />
-														<rect x="11" y="17" width="7" height="2" rx="1"
-															transform="rotate(-90 11 17)" fill="white" />
-														<rect x="11" y="9" width="2" height="2" rx="1"
-															transform="rotate(-90 11 9)" fill="white" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<span class="menu-title fs-6 ms-1">Pengajuan (Verifikator Kepala)</span>
-											</a>
-											<!--end:Menu link-->
-										</div>
-										<!--end::Menu verifikator kepala-->
-
-										<!--begin:Menu viewer-->
-										<div class="menu-item">
-											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
-												<!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/kt-products/docs/metronic/html/releases/2023-03-24-172858/core/html/src/media/icons/duotune/general/gen045.svg-->
-												<span class="svg-icon svg-icon-muted svg-icon-2hx "><svg width="30"
-														height="30" viewBox="1 -2 30 30" fill="white"
-														xmlns="http://www.w3.org/2000/svg">
-														<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10"
-															fill="white" />
-														<rect x="11" y="17" width="7" height="2" rx="1"
-															transform="rotate(-90 11 17)" fill="white" />
-														<rect x="11" y="9" width="2" height="2" rx="1"
-															transform="rotate(-90 11 9)" fill="white" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<span class="menu-title fs-6 ms-1">Pengajuan (Viewer)</span>
-											</a>
-											<!--end:Menu link-->
-										</div>
-										<!--end::Menu viewer-->
+										<!--end::Menu Revisi Dokumen PPK-->
 									</div>
 									<!--end:Menu item-->
 								</div>
