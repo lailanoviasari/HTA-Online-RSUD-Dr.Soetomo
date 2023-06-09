@@ -75,7 +75,9 @@ License: For each use you must have a valid license purchased only from above li
     <div class="d-flex flex-column flex-root app-root" id="kt_app_root">
         <!--begin::Page-->
         <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
-           {{--  @include('HTA-layouts.HTA-header') --}}
+
+            @include('HTA-layouts.HTA-header')
+            
             <!--begin::Wrapper-->
             <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
 
@@ -131,7 +133,306 @@ License: For each use you must have a valid license purchased only from above li
     <script>
         $("#kt_datepicker_1").flatpickr()
     </script>
-    <script src="{{ asset('assets/plugins/custom/ckeditor/ckeditor-classic.bundle.js') }}"></script>
+    
+    
+<!--begin::Java Script-->
+<script>
+	// Stepper lement
+	var element = document.querySelector("#kt_stepper_example_basic");
+
+	// Initialize Stepper
+	var stepper = new KTStepper(element);
+
+	// Handle next step
+	stepper.on("kt.stepper.next", function (stepper) {
+		stepper.goNext(); // go next step
+	});
+
+	// Handle previous step
+	stepper.on("kt.stepper.previous", function (stepper) {
+		stepper.goPrevious(); // go previous step
+	});
+</script>
+<!--end::Java Script-->
+
+<!--begin::JS Faidatun Nisa Vera Amanda (VERA)-->
+<!--begin::JS ckeditor-->
+<script src="assets/plugins/custom/ckeditor/ckeditor-classic.bundle.js"></script>
+<script>
+	//introduction
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_intro'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+
+	//methodology
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_method'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+
+	//result	
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_result'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+
+	//analysis		
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_analys'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+
+	//discussion		
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_discussion'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+</script>
+<!--end::JS ckeditor-->
+
+<!--begin::JS Button Simpan-->
+<script>
+	const buttonSimpan = document.getElementById('btn_simpan');
+
+	buttonSimpan.addEventListener('click', e => {
+		e.preventDefault();
+		Swal.fire({
+			html: `Data sukses tersimpan.`,
+			icon: "success",
+			buttonsStyling: false,
+			confirmButtonText: "Selesai!",
+			customClass: {
+				confirmButton: "btn btn-primary"
+			}
+		});
+	});
+</script>
+<!--end::JS Button Simpan-->
+
+<!--begin::JS Button simpan_full-->
+<script>
+	const buttonsimpan_full = document.getElementById('btn_simpan_full');
+
+	buttonsimpan_full.addEventListener('click', e => {
+		e.preventDefault();
+		Swal.fire({
+			html: `Data sukses tersimpan`,
+			icon: "success",
+			buttonsStyling: false,
+			confirmButtonText: "Selesai!",
+			customClass: {
+				confirmButton: "btn btn-primary"
+			}
+		});
+	});
+</script>
+<!--end::JS Button simpan_full-->
+<!--end::JS Faidatun Nisa Vera Amanda (VERA)-->
+
+<!--begin:: js lailanoviasari - viaaa-->
+<!--begin:: js button-->
+<script>
+	const button1 = document.getElementById('btn_delete_literatur1');
+	const button2 = document.getElementById('btn_delete_literatur2');
+	const button3 = document.getElementById('btn_delete_literatur3');
+	const button4 = document.getElementById('btn_delete_literatur4');
+	const button5 = document.getElementById('btn_delete_literatur5');
+	const button6 = document.getElementById('btn_delete_literatur6');
+	const button7 = document.getElementById('btn_sv_chg');
+
+	button1.addEventListener('click', e => {
+		e.preventDefault();
+		Swal.fire({
+			html: `Apakah Anda ingin menghapus literatur ini?`,
+			icon: "error",
+			buttonsStyling: false,
+			showCancelButton: true,
+			confirmButtonText: "Ya, Hapus!",
+			cancelButtonText: 'Tidak, Batalkan',
+			customClass: {
+				confirmButton: "btn btn-danger",
+				cancelButton: 'btn btn-primary'
+			}
+		});
+	});
+
+	button2.addEventListener('click', e => {
+		e.preventDefault();
+		Swal.fire({
+			html: `Apakah Anda ingin menghapus literatur ini?`,
+			icon: "error",
+			buttonsStyling: false,
+			showCancelButton: true,
+			confirmButtonText: "Ya, Hapus!",
+			cancelButtonText: 'Tidak, Batalkan',
+			customClass: {
+				confirmButton: "btn btn-danger",
+				cancelButton: 'btn btn-primary'
+			}
+		});
+	});
+
+	button3.addEventListener('click', e => {
+		e.preventDefault();
+		Swal.fire({
+			html: `Apakah Anda ingin menghapus literatur ini?`,
+			icon: "error",
+			buttonsStyling: false,
+			showCancelButton: true,
+			confirmButtonText: "Ya, Hapus!",
+			cancelButtonText: 'Tidak, Batalkan',
+			customClass: {
+				confirmButton: "btn btn-danger",
+				cancelButton: 'btn btn-primary'
+			}
+		});
+	});
+
+	button4.addEventListener('click', e => {
+		e.preventDefault();
+		Swal.fire({
+			html: `Apakah Anda ingin menghapus literatur ini?`,
+			icon: "error",
+			buttonsStyling: false,
+			showCancelButton: true,
+			confirmButtonText: "Ya, Hapus!",
+			cancelButtonText: 'Tidak, Batalkan',
+			customClass: {
+				confirmButton: "btn btn-danger",
+				cancelButton: 'btn btn-primary'
+			}
+		});
+	});
+
+	button5.addEventListener('click', e => {
+		e.preventDefault();
+		Swal.fire({
+			html: `Apakah Anda ingin menghapus literatur ini?`,
+			icon: "error",
+			buttonsStyling: false,
+			showCancelButton: true,
+			confirmButtonText: "Ya, Hapus!",
+			cancelButtonText: 'Tidak, Batalkan',
+			customClass: {
+				confirmButton: "btn btn-danger",
+				cancelButton: 'btn btn-primary'
+			}
+		});
+	});
+
+	button6.addEventListener('click', e => {
+		e.preventDefault();
+		Swal.fire({
+			html: `Apakah Anda ingin menghapus literatur ini?`,
+			icon: "error",
+			buttonsStyling: false,
+			showCancelButton: true,
+			confirmButtonText: "Ya, Hapus!",
+			cancelButtonText: 'Tidak, Batalkan',
+			customClass: {
+				confirmButton: "btn btn-danger",
+				cancelButton: 'btn btn-primary'
+			}
+		});
+	});
+
+	button7.addEventListener('click', e => {
+		e.preventDefault();
+		Swal.fire({
+			html: `Data berhasil diedit`,
+			icon: "success",
+			buttonsStyling: false,
+			confirmButtonText: "Selesai!",
+			customClass: {
+				confirmButton: "btn btn-primary"
+			}
+		});
+	});
+</script>
+
+<script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+<script>
+	ClassicEditor
+		.create(document.querySelector('#editor'))
+		.catch(error => {
+			console.error(error);
+		});
+</script>
+<!--end:: js button-->
+<!--begin::js ckeditor-->
+<script src="assets/plugins/custom/ckeditor/ckeditor-classic.bundle.js"></script>
+<script>
+	//ckeditor edit introduction
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_edit_intro'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+
+	//ckeditor edit methodology
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_edit_method'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+
+	//ckeditor edit result
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_edit_result'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+
+	//ckeditor edit analysis
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_edit_analys'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+
+	//ckeditor edit discussion
+	ClassicEditor
+		.create(document.querySelector('#ckeditor_edit_discuss'))
+		.then(editor => {
+			console.log(editor);
+		})
+		.catch(error => {
+			console.error(error);
+		});
+</script>
     
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
