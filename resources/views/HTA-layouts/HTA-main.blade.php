@@ -84,15 +84,11 @@ License: For each use you must have a valid license purchased only from above li
                 @include('HTA-layouts.HTA-sidebar')
 
                 @yield('content-InformasiPengajuan')
-
                 @yield('content-BelumDirekomendasikan')
-
                 @yield('content-Direkomendasikan')
-
                 @yield('content-Ditolak')
 
                 @include('HTA-layouts.HTA-footer')
-
 
             </div>
         </div>

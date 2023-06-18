@@ -891,12 +891,10 @@
                                                     <h3>Form Edit Studi Literatur
                                                     </h3>
                                                     <!--begin::Close-->
-                                                    <div class="btn btn-icon btn-sm
-                  btn-active-light-danger ms-2"
+                                                    <div class="btn btn-icon btn-sm btn-active-light-danger ms-2"
                                                         data-bs-dismiss="modal" aria-label="Close">
                                                         <span
-                                                            class="svg-icon svg-icon-muted
-                     svg-icon-2hx">
+                                                            class="svg-icon svg-icon-muted svg-icon-2hx">
                                                             <svg width="24" height="24" viewBox="0 0 24 24"
                                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <rect opacity="0.3" x="2" y="2"
@@ -908,8 +906,7 @@
                                                                     fill="currentColor" />
                                                                 <rect x="8.41422" y="7" width="12"
                                                                     height="2" rx="1"
-                                                                    transform="rotate(45
-                           8.41422 7)"
+                                                                    transform="rotate(45 8.41422 7)"
                                                                     fill="currentColor" />
                                                             </svg>
                                                         </span>
