@@ -314,7 +314,7 @@
 										<!--begin:Menu Pengajuan (Verifikator Kepala)-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
+											<a class="menu-link active" href="/">
 												<!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/kt-products/docs/metronic/html/releases/2023-03-24-172858/core/html/src/media/icons/duotune/general/gen045.svg-->
 												<span class="svg-icon svg-icon-muted svg-icon-2hx "><svg width="30"
 														height="30" viewBox="1 -2 30 30" fill="white"
