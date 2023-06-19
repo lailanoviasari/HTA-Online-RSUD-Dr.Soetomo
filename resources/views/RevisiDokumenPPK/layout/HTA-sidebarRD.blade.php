@@ -130,7 +130,7 @@
 										<!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link active" href="/">
+											<a class="menu-link" href="/">
 												<span class="menu-title">Keempat</span>
 											</a>
 											<!--end:Menu link-->
