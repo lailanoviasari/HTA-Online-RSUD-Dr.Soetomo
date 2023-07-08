@@ -75,26 +75,21 @@ License: For each use you must have a valid license purchased only from above li
     <div class="d-flex flex-column flex-root app-root" id="kt_app_root">
         <!--begin::Page-->
         <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
-
-            @include('HTA-layouts.HTA-header')
-            
             <!--begin::Wrapper-->
             <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
 
+                @include('HTA-layouts.HTA-header')
                 @include('HTA-layouts.HTA-sidebar')
-
                 @yield('content-InformasiPengajuan')
                 @yield('content-BelumDirekomendasikan')
                 @yield('content-Direkomendasikan')
                 @yield('content-Ditolak')
-
                 @include('HTA-layouts.HTA-footer')
 
             </div>
+            <!--end::Wrapper-->
         </div>
-        <!--end::Wrapper-->
-    </div>
-    <!--end::Page-->
+        <!--end::Page-->
     </div>
     <!--end::App-->
     <!--begin::Scrolltop-->
@@ -115,7 +110,7 @@ License: For each use you must have a valid license purchased only from above li
 
     <!--begin::Global Javascript Bundle-->
     <script src="{{ asset('assets/plugins/global/plugins.bundle.js') }}"></script>
-    <script src="{{ asset('assets/js/scripts.bundle.j') }}s"></script>
+    <script src="{{ asset('assets/js/scripts.bundle.js') }}"></script>
     <!--end::Global Javascript Bundle-->
     <!--begin::Vendors Javascript(used for this page only)-->
     <script src="{{ asset('assets/plugins/custom/datatables/datatables.bundle.js') }}"></script>
