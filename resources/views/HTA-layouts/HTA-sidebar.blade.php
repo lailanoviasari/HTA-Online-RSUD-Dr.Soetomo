@@ -31,7 +31,7 @@
 								data-kt-menu="true">
 								<!--begin:Menu item Home-->
 								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-									data-kt-menu-placement="right-start" class="menu-item">
+									data-kt-menu-placement="right-start" class="menu-item {{ (request()->is('/home')) ? 'here show' : '' }}">
 									<!--begin:Menu link-->
 									<span class="menu-link menu-center">
 										<!--begin::Svg Icon-->
@@ -44,9 +44,9 @@
 									<!--begin:Menu sub-->
 									<div class="menu-sub menu-sub-dropdown px-2 py-4 w-250px mh-75 overflow-auto">
 										<!--begin:Menu item-->
-										<div class="menu-item">
+										<div class="menu-item {{ (request()->is('/home')) ? 'active' : '' }}">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
+											<a class="menu-link" href="/home">
 												<span class="menu-title">Home</span>
 											</a>
 											<!--end:Menu link-->
@@ -59,7 +59,7 @@
 
 								<!--begin:Menu item 2-->
 								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-									data-kt-menu-placement="right-start" class="menu-item ">
+									data-kt-menu-placement="right-start" class="menu-item {{ (request()->is('/kedua')) ? 'here show' : '' }}">
 									<!--begin:Menu link-->
 									<span class="menu-link menu-center">
 										<!--begin::Svg Icon-->
@@ -72,9 +72,9 @@
 									<!--begin:Menu sub-->
 									<div class="menu-sub menu-sub-dropdown px-2 py-4 w-250px mh-75 overflow-auto">
 										<!--begin:Menu item-->
-										<div class="menu-item">
+										<div class="menu-item {{ (request()->is('/kedua')) ? 'active' : '' }}">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
+											<a class="menu-link" href="/kedua">
 												<span class="menu-title">Kedua</span>
 											</a>
 											<!--end:Menu link-->
@@ -87,7 +87,7 @@
 
 								<!--begin:Menu item 3-->
 								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-									data-kt-menu-placement="right-start" class="menu-item">
+									data-kt-menu-placement="right-start" class="menu-item {{ (request()->is('/revisiPPK')) ? 'here show' : '' }}">
 									<!--begin:Menu link-->
 									<span class="menu-link menu-center">
 										<!--begin::Svg Icon-->
@@ -100,9 +100,9 @@
 									<!--begin:Menu sub-->
 									<div class="menu-sub menu-sub-dropdown px-2 py-4 w-250px mh-75 overflow-auto">
 										<!--begin:Menu item-->
-										<div class="menu-item">
+										<div class="menu-item {{ (request()->is('/revisiPPK')) ? 'active' : '' }}">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/HTA-RevisiDokumenPPK">
+											<a class="menu-link" href="/revisiPPK">
 												<span class="menu-title">Ketiga</span>
 											</a>
 											<!--end:Menu link-->
@@ -115,7 +115,7 @@
 
 								<!--begin:Menu item 4-->
 								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-									data-kt-menu-placement="right-start" class="menu-item here show">
+									data-kt-menu-placement="right-start" class="menu-item {{ (request()->is('/pengajuanVK')) ? 'here show' : '' }}">
 									<!--begin:Menu link-->
 									<span class="menu-link menu-center">
 										<!--begin::Svg Icon-->
@@ -128,9 +128,9 @@
 									<!--begin:Menu sub-->
 									<div class="menu-sub menu-sub-dropdown px-2 py-4 w-250px mh-75 overflow-auto">
 										<!--begin:Menu item-->
-										<div class="menu-item">
+										<div class="menu-item {{ (request()->is('/pengajuanVK')) ? 'active' : '' }}">
 											<!--begin:Menu link-->
-											<a class="menu-link active" href="/">
+											<a class="menu-link " href="/pengajuanVK">
 												<span class="menu-title">Keempat</span>
 											</a>
 											<!--end:Menu link-->
@@ -143,7 +143,7 @@
 
 								<!--begin:Menu item 5-->
 								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-									data-kt-menu-placement="right-start" class="menu-item">
+									data-kt-menu-placement="right-start" class="menu-item {{ (request()->is('/kelima')) ? 'here show' : '' }}">
 									<!--begin:Menu link-->
 									<span class="menu-link menu-center">
 										<!--begin::Svg Icon-->
@@ -156,9 +156,9 @@
 									<!--begin:Menu sub-->
 									<div class="menu-sub menu-sub-dropdown px-2 py-4 w-250px mh-75 overflow-auto">
 										<!--begin:Menu item-->
-										<div class="menu-item">
+										<div class="menu-item {{ (request()->is('/kelima')) ? 'active' : '' }}">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
+											<a class="menu-link" href="/kelima">
 												<span class="menu-title">Kelima</span>
 											</a>
 											<!--end:Menu link-->
@@ -171,7 +171,7 @@
 
 								<!--begin:Menu item keluar-->
 								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-									data-kt-menu-placement="right-start" class="menu-item">
+									data-kt-menu-placement="right-start" class="menu-item {{ (request()->is('/keluar')) ? 'here show' : '' }}">
 									<!--begin:Menu link-->
 									<span class="menu-link menu-center">
 										<!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/kt-products/docs/metronic/html/releases/2023-03-24-172858/core/html/src/media/icons/duotune/general/gen045.svg-->
@@ -184,9 +184,9 @@
 									<!--begin:Menu sub-->
 									<div class="menu-sub menu-sub-dropdown px-2 py-4 w-250px mh-75 overflow-auto">
 										<!--begin:Menu item-->
-										<div class="menu-item">
+										<div class="menu-item {{ (request()->is('/keluar')) ? 'active' : '' }}">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/">
+											<a class="menu-link" href="/keluar">
 												<span class="menu-title">Keluar</span>
 											</a>
 											<!--end:Menu link-->
@@ -231,9 +231,9 @@
 										<div class="card mw-100px mb-3">
 											<img src="{{ ('assets\media\avatars\blank.png') }}" alt="">
 										</div>
-										<div class="fs-5 fw-bolder mb-1">M. Hardian Basuki, dr., Sp.OT(K)</div>
+										<div class="fs-5 fw-bolder mb-1">Nama Pengaju dan gelar</div> {{-- M. Hardian Basuki, dr., Sp.OT(K) --}}
 										<div class="fs-7 fw-bolder">NIP/NIPTT-PK:</div>
-										<div class="fs-7 mb-1">198211242020121001</div>
+										<div class="fs-7 mb-1">19821124***********</div> {{-- 198211242020121001 --}}
 										<div class="fs-7 fw-bolder">Jabatan:</div>
 										<div class="fs-7 mb-1">Dokter Spesialis Orthopedi & Traumatologi (Sp.OT)</div>
 										<div class="fs-7 fw-bolder">Unit Kerja:</div>
@@ -314,7 +314,7 @@
 										<!--begin:Menu Pengajuan (Verifikator Kepala)-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link active" href="/">
+											<a class="menu-link {{ (request()->is('/pengajuanVK')) ? 'active' : '' }}" href="/pengajuanVK">
 												<!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/kt-products/docs/metronic/html/releases/2023-03-24-172858/core/html/src/media/icons/duotune/general/gen045.svg-->
 												<span class="svg-icon svg-icon-muted svg-icon-2hx "><svg width="30"
 														height="30" viewBox="1 -2 30 30" fill="white"

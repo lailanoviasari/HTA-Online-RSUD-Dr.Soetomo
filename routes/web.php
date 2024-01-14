@@ -13,39 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/dev', function () {
-    return view('dev', [
-        // digunakan untuk memasukkan data dari route ke suatu file sesuai dengan view yang dituju
-        'title' => 'Dev',
-        'name' => 'Laila Novia Sari',
-        'NIM' => '20051204013',
-        'job' => 'Programmer',
-        'company' => 'Universitas Negeri Surabaya',
-        'address' => 'Krian - Sidoarjo',
-        'hobi' => 'Nge drakor hahaha'
-    ]);
-});
-
-Route::get('/beranda', function () {
-    return view('beranda');
-});
-
 Route::get('/', function () {
     return view('HTA-InformasiPengajuan');
 });
 
-Route::get('/HTA-belumDirekomendasikan', function () {
+Route::get('/pengajuanVK', function () {
+    return view('HTA-InformasiPengajuan');
+});
+
+Route::get('/pengajuanVK/blm-diverifikasi', function () {
     return view('HTA-BelumDirekomendasikan');
 });
 
-Route::get('/HTA-Direkomendasikan', function () {
+Route::get('/pengajuanVK/direkomendasikan', function () {
     return view('HTA-Direkomendasikan');
 });
 
-Route::get('/HTA-Ditolak', function () {
+Route::get('/pengajuanVK/ditolak', function () {
     return view('HTA-Ditolak');
 });
 
-Route::get('/HTA-RevisiDokumenPPK', function () {
+Route::get('/revisiPPK', function () {
     return view('RevisiDokumenPPK.HTA-revisiDokumenPPK');
 });

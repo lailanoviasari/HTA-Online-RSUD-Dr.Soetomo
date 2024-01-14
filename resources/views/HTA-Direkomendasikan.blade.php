@@ -410,7 +410,7 @@
 
 							<div class="card-footer">
 								<!--begin::Button kembali-->
-								<a href="/" type="button"
+								<a href="/pengajuanVK" type="button"
 									class="btn btn-secondary align-self-start me-2">Kembali</a>
 								<!--end::Button kembali-->
 							</div>

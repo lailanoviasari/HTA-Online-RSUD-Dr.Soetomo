@@ -203,7 +203,7 @@
                                     <td>Simvastatin</td>
                                     <td>KSM Neurologi</td>
                                     <td>
-                                        <a href="/HTA-belumDirekomendasikan">
+                                        <a href="/pengajuanVK/blm-diverifikasi">
                                             <button type="button" class="btn btn-light-warning btn-sm">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="currentColor" class="bi bi-check fs-3x" viewBox="0 0 16 16">
@@ -216,7 +216,7 @@
                                         </a>
                                     </td>
                                     <td>
-                                        <a href="/HTA-belumDirekomendasikan">
+                                        <a href="/pengajuanVK/blm-diverifikasi">
                                             <button type="button" class="btn btn-light-primary">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="currentColor" class="bi bi-eye-fill text-primary"
@@ -238,7 +238,7 @@
                                     <td>ICD-10 : B.29</td>
                                     <td>KSM Neurologi</td>
                                     <td>
-                                        <a href="/HTA-Direkomendasikan">
+                                        <a href="/pengajuanVK/direkomendasikan">
                                             <button type="button" class="btn btn-light-primary btn-sm">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16">
@@ -251,7 +251,7 @@
                                         </a>
                                     </td>
                                     <td>
-                                        <a href="/HTA-Direkomendasikan">
+                                        <a href="/pengajuanVK/direkomendasikan">
                                             <button type="button" class="btn btn-light-primary">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="currentColor" class="bi bi-eye-fill text-primary"
@@ -273,7 +273,7 @@
                                     <td>ICD-10 : B.29</td>
                                     <td>KSM Neurologi</td>
                                     <td>
-                                        <a href="HTA-Ditolak">
+                                        <a href="/pengajuanVK/ditolak">
                                             <div class="btn btn-light-danger btn-sm">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
@@ -286,7 +286,7 @@
                                         </a>
                                     </td>
                                     <td>
-                                        <a href="HTA-Ditolak">
+                                        <a href="/pengajuanVK/ditolak">
                                             <button type="button" class="btn btn-light-primary">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="currentColor" class="bi bi-eye-fill text-primary"
@@ -361,7 +361,7 @@
                                                     <td>Simvastatin</td>
                                                     <td>KSM Neurologi</td>
                                                     <td>
-                                                        <a href="HTA-belumDirekomendasikan" type="button"
+                                                        <a href="/pengajuanVK/blm-diverifikasi" type="button"
                                                             class="btn btn-light-warning btn-sm">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                                 height="16" fill="currentColor"
@@ -374,7 +374,7 @@
                                                         </a>
                                                     </td>
                                                     <td>
-                                                        <a href="HTA-belumDirekomendasikan" type="button"
+                                                        <a href="/pengajuanVK/blm-diverifikasi" type="button"
                                                             class="btn btn-light-primary">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                                 height="16" fill="currentColor"
@@ -395,7 +395,7 @@
                                                     <td>ICD-10 : B.29</td>
                                                     <td>KSM Neurologi</td>
                                                     <td>
-                                                        <a href="/HTA-Direkomendasikan" type="button"
+                                                        <a href="/pengajuanVK/direkomendasikan" type="button"
                                                             class="btn btn-light-primary btn-sm">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                                 height="16" fill="currentColor"
@@ -408,7 +408,7 @@
                                                         </a>
                                                     </td>
                                                     <td>
-                                                        <a href="/HTA-Direkomendasikan" type="button"
+                                                        <a href="/pengajuanVK/direkomendasikan" type="button"
                                                             class="btn btn-light-primary">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                                 height="16" fill="currentColor"
@@ -429,7 +429,7 @@
                                                     <td>ICD-10 : B.29</td>
                                                     <td>KSM Neurologi</td>
                                                     <td>
-                                                        <a href="HTA-Ditolak" type="button"
+                                                        <a href="pengajuanVK/ditolak" type="button"
                                                             class="btn btn-light-danger btn-sm">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                                 height="16" fill="currentColor" class="bi bi-x"
@@ -442,7 +442,7 @@
                                                         </a>
                                                     </td>
                                                     <td>
-                                                        <a href="HTA-Ditolak" type="button"
+                                                        <a href="pengajuanVK/ditolak" type="button"
                                                             class="btn btn-light-primary">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                                 height="16" fill="currentColor"

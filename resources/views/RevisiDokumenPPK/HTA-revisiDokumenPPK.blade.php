@@ -446,8 +446,7 @@
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-light"
                                                         data-bs-dismiss="modal">Kembali</button>
-                                                    <button type="button" class="btn btn-primary"
-                                                        id="btn_simpan"
+                                                    <button type="button" class="btn btn-primary" id="btn_simpan"
                                                         data-bs-dismiss="modal">Simpan</button>
                                                 </div>
                                                 <!--end::Button-->
@@ -496,7 +495,8 @@
                                                     <td>-</td>
                                                     <td>1a</td>
                                                     <td>A</td>
-                                                    <td><a href="aset_kel3/jurnal1.pdf" target="_blank">jurnal1.pdf</a></td>
+                                                    <td><a href="aset_kel3/jurnal1.pdf" target="_blank">jurnal1.pdf</a>
+                                                    </td>
                                                     <td>
                                                         <div class="row">
                                                             <!--begin::tombol edit-->
@@ -620,7 +620,8 @@
                                                     <td>-</td>
                                                     <td>2b</td>
                                                     <td>B</td>
-                                                    <td><a href="aset_kel3/jurnal1.pdf" target="_blank">jurnal2.pdf</a></td>
+                                                    <td><a href="aset_kel3/jurnal1.pdf" target="_blank">jurnal2.pdf</a>
+                                                    </td>
                                                     <td>
                                                         <div class="row">
                                                             <!--begin::tombol edit-->
@@ -746,7 +747,8 @@
                                                     <td>-</td>
                                                     <td>4</td>
                                                     <td>C</td>
-                                                    <td><a href="aset_kel3/jurnal1.pdf" target="_blank">jurnal3.pdf</a></td>
+                                                    <td><a href="aset_kel3/jurnal1.pdf" target="_blank">jurnal3.pdf</a>
+                                                    </td>
                                                     <td>
                                                         <div class="row">
                                                             <!--begin::tombol edit-->
@@ -893,8 +895,7 @@
                                                     <!--begin::Close-->
                                                     <div class="btn btn-icon btn-sm btn-active-light-danger ms-2"
                                                         data-bs-dismiss="modal" aria-label="Close">
-                                                        <span
-                                                            class="svg-icon svg-icon-muted svg-icon-2hx">
+                                                        <span class="svg-icon svg-icon-muted svg-icon-2hx">
                                                             <svg width="24" height="24" viewBox="0 0 24 24"
                                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <rect opacity="0.3" x="2" y="2"
